@@ -12,13 +12,15 @@ Given the documented database tables (with some sample data) write a SQL query t
 ## Installation
 
 In terminal
-clone this repository with `git clone 'git@github.com:SammySteiner/dot-align-sql.git'`  
-cd into this directory `cd dot-align-sql`  
-While using a mac: 
-if you do not have an up-to-date version of Ruby, run `brew install ruby`  
-if you do not have the bundler gem installed, run  `gem install bundler`  
-run `bundle install` to install the required gems  
-run `ruby bin/create_and_seed_db.rb` to create and seed the Database  
+1. clone this repository with `git clone 'git@github.com:SammySteiner/dot-align-sql.git'`  
+2. cd into this directory `cd dot-align-sql`  
+While using a mac:
+3. if you do not have an up-to-date version of Ruby, you may need to update. If you have homebrew installed you can run `brew install ruby`  
+4. If you do not have the bundler gem installed, run  `gem install bundler`  
+5. If you do not have the sqlite3 gem installed, run  `gem install sqlite3`  
+If any of these steps gives you an error, you may not have the right permissions, reach out to me.
+6. run `bundle install` to install the required gems  
+7. run `ruby bin/create_and_seed_db.rb` to create and seed the Database  
 You're now ready to test out the query files. If you're using Windows, reach out and we'll find a way to set you up to run these files.
 
 
